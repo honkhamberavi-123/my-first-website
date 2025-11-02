@@ -1,0 +1,70 @@
+*{padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	{font-family: "Yarndings 20", system-ui;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+}
+.header{
+	background-color:black;
+	padding:5px;
+}
+.row,
+.row::after,
+.row::before
+{
+	clear:both;
+	display:table;
+	width:100%;
+}
+.col-3{
+		float:left;
+		padding:0 15px;
+		width:calc(100% * 3/12);
+		/*border:1px solid red;*/
+		}
+.col-9{
+		float:left;
+		padding:0 15px;
+		width:calc(100% * 9/12);
+/*border:1px solid red;*/}
+.navbar{
+	text-align:right;
+}
+.logo{
+	padding-top:10px;
+}
+
+.navbar ul {
+	
+	/*border:2px solid green;*/
+			display:inline-block;			
+						}
+.navbar ul li {
+	display:inline-block;
+	padding:10px;
+	}
+.navbar ul li a{
+	text-decoration:none;
+	font-size:20px;
+	padding:10px;
+	display:inline-block;
+	color:white;
+	text-transform:capitalize;
+}	
+.navbar ul li a:hover,
+.navbar ul li a:active,
+.navbar ul li a:focus{
+	background-color:orange;
+	}
+.navbar li.active a{
+	background-color:orange;}
+.maincontent{
+padding:20px;
+}	
+		
+		
